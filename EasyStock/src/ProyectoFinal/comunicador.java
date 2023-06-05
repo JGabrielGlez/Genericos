@@ -35,9 +35,7 @@ public class comunicador {
         return a;
     }
     
-    public static int getLength(){
-        return articulo.length;
-    }
+    
     //este es para cuando se elimina algún elemento de la tabla principal.
     public static void setArticulo(Articulo[] articulo, int indice,int pos) {
         a=indice;

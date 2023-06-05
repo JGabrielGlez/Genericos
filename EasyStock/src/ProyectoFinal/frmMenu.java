@@ -251,7 +251,6 @@ public class frmMenu extends javax.swing.JFrame{
         pnlContenedor.remove(panelActual());
         pnlContenedor.add(articulo);
         actualizarPanel();
-        //venta.vaciarTablaVenta();
         
 
     }

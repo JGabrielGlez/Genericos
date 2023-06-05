@@ -397,7 +397,6 @@ public class pnlArticulo extends controladorPanel implements SujetoObservable {
         
             else if(a<limiteArticulos){
                 msg("Ha alcanzado el máximo de artículos para esta aplicación demo...");
-                borrarDatos();
             }
         
         //Al momento de editar un artículo para agregarle más elementos, sería bueno desactivar los 
